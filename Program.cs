@@ -6,7 +6,11 @@ namespace GenericsProgram
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Generics Program");
+            int output = Generic.MaxNumber(07, 01, 03);
+            Console.WriteLine("{0} is maximum number ", output);
+            Console.ReadLine();
+
         }
     }
 }
+
