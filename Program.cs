@@ -6,8 +6,8 @@ namespace GenericsProgram
     {
         static void Main(string[] args)
         {
-            int output = Generic.MaxNumber(07, 01, 03);
-            Console.WriteLine("{0} is maximum number ", output);
+            double output = Generic.MaxNumber(15.16, 16.27, 7.23);
+            Console.WriteLine("{0} is a maximum number ", output);
             Console.ReadLine();
 
         }
